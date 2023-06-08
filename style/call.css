@@ -1,0 +1,260 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #141414;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 45px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+.row {
+    margin-top: 45px;
+    margin-bottom: auto;
+    width: auto;
+    height: 100%;
+}
+
+.header-title {
+    color: #000000;
+    font-family: 'Tinos', serif;
+    font-weight: 100;
+    font-size: 36px ;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px 0 0 0 ;
+}
+
+.carousel-item {
+    max-height: 100%;
+}
+
+.loqo {
+    margin-left: 15px;
+}
+
+.d-flex {
+    position: absolute;
+    left: auto;
+    right: 25px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item { /* параметры текста */ 
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: color 0.3s linear;
+    margin-left: 25px;
+}
+
+.nav-item:hover { /* при наведении на меню */
+    color: rgb(148, 2, 165);
+}
+
+.banner {
+    display: flex;
+    margin-top: 25px;
+    max-height: auto;
+    max-width: 1000px;
+    padding-bottom: 25px;
+}
+
+.card {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.title__inner {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.title__inner h2 {
+    text-align: center
+}
+
+.stretched-link {
+    background-color: #000;
+}
+
+.btn {
+    color: rgb(148, 2, 165);
+    border-color: rgb(148, 2, 165);
+    box-shadow: rgb(148, 2, 165);
+    margin-left: 20px;
+}
+
+.btn:focus {
+    box-shadow:rgb(148, 2, 165);
+}
+
+.btn:hover {
+    border-color: rgb(148, 2, 165);
+    background-color: rgb(148, 2, 165);
+}
+
+.header-down {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand {
+    margin-right: 5%;
+}
+
+.header-down {
+    color: white;
+}
+
+.nav-item {
+    color: white;
+}
+
+.nav-link.active {
+    color:#ffffff;
+}
+
+.nav-link {
+    color:#ffffff;
+}
+
+.d-flex {
+    margin-right: 0px;
+}
+
+.card {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    padding: 20px 50px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+}
+.social,
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.social li,
+.menu li{
+    list-style: none;
+}
+.social li a {
+    font-size: 2em;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.menu li a {
+    font-size: 1.2em;
+    color: #000;
+    opacity: 0.75;
+    margin: 0 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover {
+    opacity: 1;
+}
+footer p {
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}

@@ -1,0 +1,12 @@
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: #494949;
+    color: azure;
+}
+
+td {
+    background: #c5c5c5;
+}
